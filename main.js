@@ -10,12 +10,16 @@ function preload() {
     Shelf = loadImage("./Images/Shelf.png")
 }
 
+
+
 function setup() {
     createCanvas(950, 715); 
     video = createCapture(VIDEO);
     video.hide();
 
 }
+
+window.alert("Click On The Camera To Take Snapshot !!");
 
 function draw() {
     image(img, 250, 170, 450, 420);
